@@ -3,10 +3,10 @@ Suppose there is a function sq(x) that squares numbers
 def sq(x):
     return x * x
 
-The odd-indexed values are ones we wish to test, and
-even-indexed values are the expected values.
+The odd-indexed arguments to pairtest are the ones we wish to test, and
+even-indexed arguments are the expected values.
 
-In the example below, the first, third and fourth test pass.
+In the example below, the first, third and fourth tests pass.
 
 pairtest(
     sq(9), 81,
